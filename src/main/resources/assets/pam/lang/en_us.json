@@ -1,0 +1,30 @@
+{
+  "pam.denied.generic": "You have not yet unlocked access to this.",
+  "pam.denied.nether_entry": "You must be covered in diamonds before entering the Nether.",
+  "pam.denied.end_entry": "You are not yet ready to enter the End.",
+  "pam.denied.elytra_use": "You have not yet proven yourself worthy of flight.",
+  "pam.denied.diamond_gear": "You have not yet earned the right to wear diamond.",
+  "pam.denied.netherite_gear": "You have not yet earned the right to wear netherite.",
+  "pam.denied.shulker_ender_chest": "You are not yet trusted with extradimensional storage.",
+  "pam.denied.totem": "This totem's power is beyond you for now.",
+  "pam.denied.beacon": "You are not yet worthy of the beacon's light.",
+
+  "pam.command.grant.success": "Granted attunement %s to %s",
+  "pam.command.grant.already": "Attunement %s is already granted to %s",
+  "pam.command.revoke.success": "Revoked attunement %s from %s",
+  "pam.command.revoke.missing": "Attunement %s was not present on %s",
+  "pam.command.list.empty": "%s has no unlocked attunements",
+  "pam.command.list.header": "%s has %s unlocked attunement(s)",
+  "pam.command.clear.success": "Cleared all attunements for %s",
+  "pam.command.preset.get": "Active progression preset: %s",
+  "pam.command.preset.set": "Progression preset set to %s",
+
+  "pam.preset.none.name": "Sandbox",
+  "pam.preset.none.description": "No attunement locks. Pure vanilla progression, PAM stays out of the way.",
+  "pam.preset.vanilla_plus.name": "Vanilla+",
+  "pam.preset.vanilla_plus.description": "Light-touch pacing: gates dimension travel and Elytra flight behind their natural vanilla milestones.",
+  "pam.preset.attunement_progression.name": "RPG Progression",
+  "pam.preset.attunement_progression.description": "Full MMO-style attunement gating: dimensions, Elytra, diamond/netherite gear, shulkers, ender chests, totems, and beacons.",
+
+  "pam.screen.firstjoin.title": "Choose Your Progression Path"
+}

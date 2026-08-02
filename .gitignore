@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# NeoForge run data
+run/
+runs/
+logs/
+
+# Generated resources
+src/generated/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code local tooling state
+.claude/

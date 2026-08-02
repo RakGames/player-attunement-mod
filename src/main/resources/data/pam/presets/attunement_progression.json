@@ -1,0 +1,133 @@
+{
+  "id": "pam:attunement_progression",
+  "name": "Attunement Progression",
+  "attunements": [
+    {
+      "id": "pam:nether_entry",
+      "requirements": {
+        "advancements": ["minecraft:story/shiny_gear", "minecraft:story/form_obsidian"]
+      },
+      "locks": {
+        "dimensions": ["minecraft:the_nether"]
+      },
+      "denial_message": "pam.denied.nether_entry"
+    },
+    {
+      "id": "pam:end_entry",
+      "requirements": {
+        "advancements": ["minecraft:nether/summon_wither"],
+        "items_crafted": [
+          "minecraft:netherite_helmet",
+          "minecraft:netherite_chestplate",
+          "minecraft:netherite_leggings",
+          "minecraft:netherite_boots"
+        ],
+        "entities_killed": ["minecraft:wither"]
+      },
+      "locks": {
+        "dimensions": ["minecraft:the_end"]
+      },
+      "denial_message": "pam.denied.end_entry"
+    },
+    {
+      "id": "pam:elytra_use",
+      "requirements": {
+        "advancements": ["minecraft:end/kill_dragon", "minecraft:nether/summon_wither"]
+      },
+      "locks": {
+        "items": ["minecraft:elytra"]
+      },
+      "denial_message": "pam.denied.elytra_use"
+    },
+    {
+      "id": "pam:diamond_gear",
+      "requirements": {
+        "advancements": ["minecraft:story/obtain_armor"],
+        "min_player_level": 20
+      },
+      "locks": {
+        "items": [
+          "minecraft:diamond_helmet",
+          "minecraft:diamond_chestplate",
+          "minecraft:diamond_leggings",
+          "minecraft:diamond_boots",
+          "minecraft:diamond_sword",
+          "minecraft:diamond_pickaxe",
+          "minecraft:diamond_axe",
+          "minecraft:diamond_shovel",
+          "minecraft:diamond_hoe"
+        ]
+      },
+      "denial_message": "pam.denied.diamond_gear"
+    },
+    {
+      "id": "pam:netherite_gear",
+      "requirements": {
+        "advancements": ["minecraft:nether/find_fortress", "minecraft:nether/obtain_ancient_debris"]
+      },
+      "locks": {
+        "items": [
+          "minecraft:netherite_helmet",
+          "minecraft:netherite_chestplate",
+          "minecraft:netherite_leggings",
+          "minecraft:netherite_boots",
+          "minecraft:netherite_sword",
+          "minecraft:netherite_pickaxe",
+          "minecraft:netherite_axe",
+          "minecraft:netherite_shovel",
+          "minecraft:netherite_hoe"
+        ]
+      },
+      "denial_message": "pam.denied.netherite_gear"
+    },
+    {
+      "id": "pam:shulker_ender_chest",
+      "requirements": {
+        "advancements": ["minecraft:end/levitate"]
+      },
+      "locks": {
+        "blocks": [
+          "minecraft:ender_chest",
+          "minecraft:shulker_box",
+          "minecraft:white_shulker_box",
+          "minecraft:orange_shulker_box",
+          "minecraft:magenta_shulker_box",
+          "minecraft:light_blue_shulker_box",
+          "minecraft:yellow_shulker_box",
+          "minecraft:lime_shulker_box",
+          "minecraft:pink_shulker_box",
+          "minecraft:gray_shulker_box",
+          "minecraft:light_gray_shulker_box",
+          "minecraft:cyan_shulker_box",
+          "minecraft:purple_shulker_box",
+          "minecraft:blue_shulker_box",
+          "minecraft:brown_shulker_box",
+          "minecraft:green_shulker_box",
+          "minecraft:red_shulker_box",
+          "minecraft:black_shulker_box"
+        ]
+      },
+      "denial_message": "pam.denied.shulker_ender_chest"
+    },
+    {
+      "id": "pam:totem",
+      "requirements": {
+        "advancements": ["minecraft:adventure/hero_of_the_village"]
+      },
+      "locks": {
+        "items": ["minecraft:totem_of_undying"]
+      },
+      "denial_message": "pam.denied.totem"
+    },
+    {
+      "id": "pam:beacon",
+      "requirements": {
+        "advancements": ["minecraft:nether/create_beacon"]
+      },
+      "locks": {
+        "blocks": ["minecraft:beacon"]
+      },
+      "denial_message": "pam.denied.beacon"
+    }
+  ]
+}

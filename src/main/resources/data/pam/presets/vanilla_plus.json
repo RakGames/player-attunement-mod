@@ -1,0 +1,42 @@
+{
+  "id": "pam:vanilla_plus",
+  "name": "Vanilla+ Pacing",
+  "attunements": [
+    {
+      "id": "pam:nether_entry",
+      "requirements": {
+        "advancements": ["minecraft:story/shiny_gear"]
+      },
+      "locks": {
+        "dimensions": ["minecraft:the_nether"]
+      },
+      "denial_message": "pam.denied.nether_entry"
+    },
+    {
+      "id": "pam:end_entry",
+      "requirements": {
+        "advancements": ["minecraft:nether/obtain_blaze_rod"],
+        "items_crafted": [
+          "minecraft:netherite_helmet",
+          "minecraft:netherite_chestplate",
+          "minecraft:netherite_leggings",
+          "minecraft:netherite_boots"
+        ]
+      },
+      "locks": {
+        "dimensions": ["minecraft:the_end"]
+      },
+      "denial_message": "pam.denied.end_entry"
+    },
+    {
+      "id": "pam:elytra_use",
+      "requirements": {
+        "advancements": ["minecraft:end/kill_dragon"]
+      },
+      "locks": {
+        "items": ["minecraft:elytra"]
+      },
+      "denial_message": "pam.denied.elytra_use"
+    }
+  ]
+}
