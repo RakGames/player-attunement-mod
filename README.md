@@ -5,7 +5,7 @@
 - **Mod ID:** `pam`
 - **Author:** lindvall.io
 - **Target:** Minecraft 26.2, NeoForge
-- **License:** All Rights Reserved *(see note below)*
+- **License:** [LGPL-3.0](LICENSE)
 
 ---
 
@@ -102,8 +102,6 @@ See [`release-notes/1.0.0.md`](release-notes/1.0.0.md) for the full changelog.
 
 Drop `pam-mc26.2_1.0.0.jar` into your `mods` folder alongside NeoForge. No other dependencies.
 
----
+## License
 
-### A note on the license
-
-This is currently listed as **All Rights Reserved** — a placeholder set during development, not a considered choice for public release. That means, as written, nobody (including modpack curators) can legally bundle or redistribute PAM without asking first. Worth deciding before this goes up: something like `LGPL-3.0`, `MIT`, or an "All Rights Reserved, modpacks OK" carve-out are all common choices for NeoForge mods depending on how much reuse you want to allow.
+[GNU Lesser General Public License v3.0](LICENSE). Modpacks, addons, and redistribution are welcome under its terms.
